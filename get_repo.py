@@ -5,6 +5,7 @@ This makes the data requests from GitHub API.
 """
 
 import requests
+# import pip._vendor.requests as requests
 import json
 
 
