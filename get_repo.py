@@ -1,8 +1,7 @@
 """
-Created by Christian Montero
-August 29, 2019
-
-This makes data requests from GitHub API
+Created by Shashank Ramesh Kumar
+October 07, 2022
+This makes the data requests from GitHub API
 
 """
 import requests
@@ -11,8 +10,8 @@ import json
 
 def connect(user):
     code200 = True
-    repo_url = "https://api.github.com/users/%s/repos" ## % (userid)
-    commit_url = "https://api.github.com/repos/%s/%s/commits" ## % (id, repo)
+    repo_url = "https://api.github.com/users/RK-ops/repos" ## % (userid)
+    commit_url = "https://api.github.com/repos/RK-ops/GithubAPI567/commits" ## % (id, repo)
 
     ## Get User
     repo_page = requests.get(repo_url % user)
