@@ -31,7 +31,7 @@ jobs:
       - checkout
       - run:
           command: |
-            pip install pytest
+            pip install unittest
             pytest --junitxml=test-results/junit.xml get_repo.py
       - store_test_results:
           path: test-results
