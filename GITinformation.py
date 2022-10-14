@@ -1,6 +1,6 @@
 """
-GitInfo.py
-This file is demonstrate the fetch request to GitHub api.
+GITinformation.py
+This is the file that demonstrates on how to fetch the request to GitHub API.
 """
 
 import requests
@@ -28,4 +28,4 @@ def getGitRepoInfo(user_id):
     return repo_names
 
 
-getGitRepoInfo("desai-aayushi")
+getGitRepoInfo("RK-ops")
