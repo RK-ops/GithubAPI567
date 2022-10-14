@@ -5,4 +5,4 @@ install:
   - pip3 install PyGithub requests
 # command to run tests
 script:
-  - python -m unittest Test_gitinfo
+  - python -m unittest Test_GitInfo
