@@ -32,7 +32,7 @@ jobs:
       - run:
           command: |
             pip install pytest
-            pytest --junitxml=test-results/junit.xml Gitinfo.py
+            pytest --junitxml=test-results/junit.xml Test_Gitmock.py
       - store_test_results:
           path: test-results      
 
